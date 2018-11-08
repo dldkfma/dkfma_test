@@ -14,3 +14,4 @@
 - git push: 이후 전송하기
 - git config --global user.name "name":  컴퓨터에 최초로 사용자 등록 
 - git config --global user.email "mail": 컴퓨터에 최초로 사용자 등록 # mimi
+#test
