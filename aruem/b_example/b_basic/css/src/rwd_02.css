@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body{background-color: #acc;}
+
+#wrap{margin: auto; width: 100%; max-width: 960px; height: auto; min-height: 400px; transition: all 300ms linear;}
+ /* ------------------------------------------------------------------------*/
+
+#headBox{width: 100%; height: 150px; height:9.375rem; background-color: #fa0;}
+h1{width: 100px; height:100%; background-color: #9f7; transition: all 300ms ease-in; float:left; }
+#gnb{width: 2.8125rem; width:45px;  height: 2.8125rem; height:45px; background-color: #fff; float:right;}
+
+/* head ------------------------------------------------*/
+#infoBox{width: 100%; background-color: #f9f;}
+
+/* ------------------------------*/
+
+#contentBox{width: 100%; height: 400px; background-color: #acc;}
+#contentBox>ul{width: 100%; height: 100%;}
+#contentBox>ul>li{width:25%; height: 100%; float: left; border: 1px solid #333; 
+	 border:1px solid #333; border: 0.0625rem solid #333; box-sizing: border-box;}
+
+/*.green{background-color: #5a4;}
+.bule{background-color: #77f;}*/
+
+
+#contentBox>ul>li:nth-child(2n){background-color: #0ff;}
+#contentBox>ul>li:nth-child(2n+1){background-color: #ff0;}
+/* ----------------------------*/
+
+#newsBox{width: 100%; height: 300px; background-color: #f70;}
+.best_news{width: 100%; height: 100px; background-color: #dd0;}
+.issue_news{width: 100%; height: 200px;  background-color: #f50;}
+/* ----------------*/
+
+#footBox{width: 100%; height: 100px; background-color: #730;}
+#footBox>h2{width: 100px; height: 100%; background-color: #acf; float: left;}
+
+/*par:nth-child(){} 무조건 연속되어진 형태를 설정 가능하다.
+
+par:nth-of-type(){} 동일레벨에서 동일한 한 타입에 대한 것을 특정해 선택할 수 있다.(동일한 태그 타입이여야만 가능)
+par:first-type{} 맨 위에 있는 것을 선택할 수 있다. 
+par:last-type{}  무조건 맨 아래에 있는 것을 선택 할 수 있다. */
+
+#newsBox{width: 100%; height: 300px; background-color: #f70;}
+
+#footBox{width: 100%; height: 100px; background-color: #730;}
+
+
+
+/*  mob start */
+@media screen and (max-width: 480px){
+	#wrap{background-color: #ccc;}
+	#headBox{position:relative; height: 100px;}
+	h1{width: 100px;}
+	#gnb{position: absolute; right: 20px; top: 50%; margin-top: -1.40625rem; }
+
+	#infoBox{height: 400px;}
+
+	#contentBox>ul>li{width: 50%; height: 50%;}
+	#contentBox>ul>li:nth-child(3){background-color: #afa;}
+	#contentBox>ul>li:nth-child(4){background-color: #aaf;}
+
+
+	#footBox > h2 {width: 50%; margin: auto; float: none;}
+
+
+
+}
+
+/* mob and */
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	#wrap{background-color: #fac;}
+	#infoBox{height:300px;}
+
+
+
+
+}
+/*tablet and */
+
+/*pc */
+@media screen and (min-width: 769px){
+	#wrap{background-color: #acf;}
+	#infoBox{height: 450px;}
+	#contentBox{height: 600px;}
+	#newsBox{display: none;}
+
+}

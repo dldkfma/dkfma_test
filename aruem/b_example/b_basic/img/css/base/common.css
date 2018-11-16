@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.hidden{display: block;width: 0; height: 0; overflow: hidden;position: absolute;z-index:  -100;}
+.clearfix:after
+.clearfixafter{content: " "; display: block; width: 0; height: 0; clear: both;}
+
+#wrap{margin:0 auto; }
