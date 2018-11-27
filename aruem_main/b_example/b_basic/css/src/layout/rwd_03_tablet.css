@@ -2,6 +2,9 @@
 	#wrap{width:100%; background-color: #acf;}
 	#addBanner{height:58.59357vw;/*450/768*100*/ min-height: 400px;}
 	#infoBox{height: 27.34375vw; /*210/768*100*/ min-height: 150px; }
-    #contentBox{height:70.3125; /* 540/768*100*/ min-height: 450px; max-height: 540px;}
-    #footBox{height: 120px; min-height: 40px;}
+  #contentBox{height:70.3125; /* 540/768*100*/ min-height: 450px; max-height: 540px;}
+  #footBox{height: 120px; min-height: 40px;}
+
+  .sign_up{width:45%;}
+  .menu{width:45%;}
 }		

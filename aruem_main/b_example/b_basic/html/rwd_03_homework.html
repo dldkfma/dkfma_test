@@ -54,28 +54,46 @@
 </head>
 <body>
 	<div id="wrap">
-		<div id="headBox">
+		<header id="headBox">
 			<h1>logo</h1>
-		</div>
-	    <div id="addBanner">
-	    	<h2>웹페이지 광고영역</h2>
+      <nav id="navBox"></nav>
+      <div class="sign_up"><a href="#">sign up</a></div>
+      <div class="menu">
+        <button type="button">메뉴</button>
+        <!-- *button 
+          type=속성 이라는 태그를 꼭 붙여주어야 한다.
+          submit,reset,button-->
+        <div class="gnb"></div>  
+          <ul>
+            <li><a href="#"><span>link_01</span></a></li>
+            <li><a href="#"><span>link_02</span></a></li>
+            <li><a href="#"><span>link_03</span></a></li>
+            <li><a href="#"><span>link_04</span></a></li>
+          </ul>
+      </div>
+		</header>
+	    <section id="addBanner">
+	    	<h2 class="hidden">웹페이지 광고영역</h2>
 
-	    </div>
+	    </section>
       
-	    <div id="infoBox">
+	    <article id="infoBox">
+        <h2 class="hidden">제목</h2>
 	    	
-	    </div>
+	    </article>
 
-	    <div id="contentBox">
+	    <article id="contentBox">
+        <h2>제목</h2>
 	    	
-	    </div>
+	    </article>
 
-	    <div id="footBox">
-	    	
-	    </div>
+	    <footer id="footBox">
+        <div class="container">
+        <h2 class="hidden">제목</h2>
+	    	</div>
+	    </footer>
 		
 	</div>
-
 
 
 

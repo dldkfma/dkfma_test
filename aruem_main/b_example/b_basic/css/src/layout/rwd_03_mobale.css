@@ -1,6 +1,8 @@
 @media screen and (max-width:480px)  {
 	#wrap{background-color: #afa;}
 	#headBox{height: 12.5vw; min-height: 2.5rem;} /* 60/480*100 vw환산식 */
+  .sign_up{width: 7.5vw; /*36/480*100*/ min-width: 24px; max-width: 36px;}
+  .menu{width: 45px;/*45/480*100*/ min-width:1.875rem; max-width: 2.8125rem;}
 	#addBanner{margin-top:12.5vw; height:150vw;/* 720/480*100 vw환산식*/ min-height: 30rem;}
     #infoBox{height: 150vw; /*720/480*100*/ min-height: 30rem;}
     #contentBox{height: 150vw; /*720/480*100*/ min-height: 30rem;}
